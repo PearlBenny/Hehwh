@@ -230,7 +230,7 @@
             position: absolute;
             background: #ffffff;
             border-radius: 50%;
-            animation: twinkle Star 2.5s infinite alternate ease-in-out;
+            animation: twinkleStar 2.5s infinite alternate ease-in-out;
             pointer-events: none;
         }
 
@@ -503,11 +503,11 @@
 
     <div class="page active" id="page1">
         <div class="glass-card">
-            <span class="subtitle">A little surprise for you 🌷</span>
-            <h2>Enter the Secret Key</h2>
+            <span class="subtitle">كمان شغلة سبيسيال جدا زيك 🌷</span>
+            <h2>حطي كلمة السر 🤨</h2>
             <input type="password" id="passInput" placeholder="••••••••" autocomplete="off">
             <div>
-                <button class="btn" onclick="verifyGatePass()">Unlock Box</button>
+                <button class="btn" onclick="verifyGatePass()">افتح يا سمسم</button>
             </div>
         </div>
     </div>
@@ -517,7 +517,7 @@
             <h2>“Some moments become memories forever.”</h2>
             <div>
                 <button class="btn" id="nextPageBtn">
-                    Next 
+                    كمل 
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                 </button>
             </div>
@@ -535,8 +535,8 @@
                     <img src="cover.jpg" alt="Track Cover">
                 </div>
                 <div class="player-info">
-                    <div class="song-title">Romantic Symphony</div>
-                    <div class="artist-name">For Someone Special</div>
+                    <div class="song-title">إنتي وبس</div>
+                    <div class="artist-name">لبيونة السبيسيال</div>
                 </div>
                 <button class="play-btn" id="playBtn">
                     <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
@@ -726,7 +726,7 @@
             if (inputField.value.trim().toLowerCase() === 'bayan') {
                 switchPageCinematically('page2');
             } else {
-                alert('كلمة السر غير صحيحة، حاول مجددًا يا جميل 🌷');
+                alert('غلط يا حلوة حاولي مرة ثانية 🌷');
             }
         }
 
